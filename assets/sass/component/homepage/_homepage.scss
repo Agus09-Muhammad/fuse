@@ -36,7 +36,7 @@ body {
         }
 
         .clamp-cst {
-            @extend .clamp-6;
+            @extend .clamp-5;
         }
     }
 }
@@ -47,12 +47,34 @@ body {
             list-style-type: none;
 
             li {
-                font-size: 2rem;
-                color: rgb(201, 199, 199);
-
-                i{
-                    // text-shadow: -1px -1px 0 rgb(236, 234, 234), 1px -1px 0 rgb(236, 234, 234), -1px 1px 0 rgb(236, 234, 234), 1px 1px 0 rgb(236, 234, 234);
+                a {
+                    font-size: 2rem;
                     text-shadow: 2px 2px white;
+                    color: rgb(117, 113, 113);
+
+                    .fa-envelope:hover {
+                        color: red;
+                    }
+
+                    .fa-facebook-square:hover {
+                        color: #1773ea;
+                    }
+
+                    .fa-instagram:hover {
+                        color: #7444bc;
+                    }
+
+                    .fa-twitter:hover {
+                        color: #009deb;
+                    }
+
+                    .fa-whatsapp:hover {
+                        color: #10b418;
+                    }
+
+                    .fa-youtube:hover {
+                        color: red;
+                    }
                 }
             }
         }
@@ -93,76 +115,76 @@ body {
 
 //------ footer  ------//
 
-#footer{
-    
-.card {
-    background-color:white;
-    color: indigo;
-    margin-top: 50px;
-    border: none
-}
+#footer {
 
-.head1 {
-    font-weight: 900;
-    font-size: 30px
-}
+    .card {
+        background-color: white;
+        color: indigo;
+        margin-top: 50px;
+        border: none
+    }
 
-.bdr {
-    border-bottom: 1.5px solid #FFB74D;
-    width: 65px;
-    margin-right: auto;
-    margin-left: auto
-}
+    .head1 {
+        font-weight: 900;
+        font-size: 30px
+    }
+
+    .bdr {
+        border-bottom: 1.5px solid #FFB74D;
+        width: 65px;
+        margin-right: auto;
+        margin-left: auto
+    }
 
 
-.footer-right>i {
-    margin-left: 15px
-}
+    .footer-right>i {
+        margin-left: 15px
+    }
 
-.fa-hand-holding-usd {
-    color: #FFB74D
-}
+    .fa-hand-holding-usd {
+        color: #FFB74D
+    }
 
-.fa-handshake {
-    color: #FFB74D
-}
+    .fa-handshake {
+        color: #FFB74D
+    }
 
-.card-title {
-    margin-bottom: .75rem;
-    font-weight: 900;
-    font-size: 15px;
-    margin-top: 1.75rem
-}
+    .card-title {
+        margin-bottom: .75rem;
+        font-weight: 900;
+        font-size: 15px;
+        margin-top: 1.75rem
+    }
 
-.learn-more {
-    color: #FFB74D
-}
+    .learn-more {
+        color: #FFB74D
+    }
 
-.fa-angle-right {
-    margin-left: 10px
-}
+    .fa-angle-right {
+        margin-left: 10px
+    }
 
-.fa-3x {
-    color: #FFB74D
-}
+    .fa-3x {
+        color: #FFB74D
+    }
 
-.card-content {
-    padding-right: 40px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px
-}
+    .card-content {
+        padding-right: 40px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
 
-.card-content>p {
-    color: #9E9E9E
-}
+    .card-content>p {
+        color: #9E9E9E
+    }
 
-.heading {
-    position: relative;
-    top: 75px
-}
+    .heading {
+        position: relative;
+        top: 75px
+    }
 
-.follow-text {
-    color: #9E9E9E
-}
+    .follow-text {
+        color: #9E9E9E
+    }
 }

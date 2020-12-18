@@ -206,9 +206,15 @@ a {
   -webkit-box-orient: vertical;
   overflow: hidden; }
 
-.clamp-6, #banner .text-banner .clamp-cst {
+.clamp-6 {
   display: -webkit-box;
   -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.clamp-5, #banner .text-banner .clamp-cst {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden; }
 
@@ -246,11 +252,22 @@ body {
 
 #sosial-fixed .media-us ul {
   list-style-type: none; }
-  #sosial-fixed .media-us ul li {
+  #sosial-fixed .media-us ul li a {
     font-size: 2rem;
-    color: #c9c7c7; }
-    #sosial-fixed .media-us ul li i {
-      text-shadow: 2px 2px white; }
+    text-shadow: 2px 2px white;
+    color: #757171; }
+    #sosial-fixed .media-us ul li a .fa-envelope:hover {
+      color: red; }
+    #sosial-fixed .media-us ul li a .fa-facebook-square:hover {
+      color: #1773ea; }
+    #sosial-fixed .media-us ul li a .fa-instagram:hover {
+      color: #7444bc; }
+    #sosial-fixed .media-us ul li a .fa-twitter:hover {
+      color: #009deb; }
+    #sosial-fixed .media-us ul li a .fa-whatsapp:hover {
+      color: #10b418; }
+    #sosial-fixed .media-us ul li a .fa-youtube:hover {
+      color: red; }
 #sosial-fixed .media-us .fixed-top {
   top: 25%;
   width: 7%; }
@@ -320,9 +337,15 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden; }
 
-.clamp-6, #banner .text-banner .clamp-cst {
+.clamp-6 {
   display: -webkit-box;
   -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.clamp-5, #banner .text-banner .clamp-cst {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden; }
 
@@ -395,13 +418,13 @@ body {
     border-radius: 13px; }
   .swiper-aboutus .swiper-pagination-bullet-active {
     color: #fff;
-    background: indigo;
+    background: #7716eb;
     width: 30px;
     height: 12px;
     border-radius: 13px;
     transition: 0.3s ease width; }
   .swiper-aboutus .swiper-button-next {
-    background-image: url(https://www.iconsdb.com/icons/preview/indigo/arrow-34-xxl.png) !important;
+    background-image: url(../img/play-button-kanan.png) !important;
     position: relative;
     width: 40px;
     height: 40px;
@@ -417,9 +440,7 @@ body {
     top: 24px;
     outline: none !important; }
   .swiper-aboutus .swiper-button-prev {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    background-image: url(https://www.iconsdb.com/icons/preview/indigo/arrow-34-xxl.png) !important;
+    background-image: url(../img/play-button-kiri.png) !important;
     position: relative;
     width: 40px;
     height: 40px;

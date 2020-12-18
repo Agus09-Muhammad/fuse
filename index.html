@@ -18,7 +18,7 @@
 
     <!-- swiperjs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.css" />
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.min.css" />
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.min.css"/>
     <link rel="icon" type="image/png" href="assets/img/ico.png">
 
 
@@ -61,12 +61,12 @@
     <section id="sosial-fixed">
         <div class="media-us">
             <ul class="fixed-top">
-                <li><i class="fas fa-envelope"></i></li>
-                <li><i class="fab fa-facebook-square"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-whatsapp"></i></li>
-                <li><i class="fab fa-youtube"></i></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             </ul>
         </div>
     </section>
@@ -287,40 +287,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.1/swiper-bundle.min.js"></script>
 
-
-<script>
-    var swiper = new Swiper('.swiper-aboutus', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
-
-<script>
-    function checkScroll() {
-        var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
-
-        if ($(window).scrollTop() > startY) {
-            $('.navbar').addClass("scrolled");
-            $('.nav-link').addClass("nav-link-scrolled");
-            $('.img-logo-brand').addClass("img-logo-brand2");
-        } else {
-            $('.navbar').removeClass("scrolled");
-            $('.nav-link').removeClass("nav-link-scrolled");
-            $('.img-logo-brand').removeClass("img-logo-brand2");
-        }
-    }
-
-    if ($('.navbar').length > 0) {
-        $(window).on("scroll load resize", function () {
-            checkScroll();
-        });
-    }
-</script>
+<!--- custom js-->
+<script src="assets/js/swiper-custom.js"></script>
+<script src="assets/js/fuse.js"></script>

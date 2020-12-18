@@ -16,6 +16,13 @@
     overflow: hidden;    
 }
 
+.clamp-5{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;    
+}
+
 .pd-contain {
     padding-top: 20px;
     padding-bottom: 20px;

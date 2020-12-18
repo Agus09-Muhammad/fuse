@@ -77,7 +77,7 @@
 
   .swiper-pagination-bullet-active {
     color: #fff;
-    background: indigo;
+    background: #7716eb;
     width: 30px;
     height: 12px;
     border-radius: 13px;
@@ -102,7 +102,7 @@
 
 
   .swiper-button-next {
-    background-image: url(https://www.iconsdb.com/icons/preview/indigo/arrow-34-xxl.png) !important;
+    background-image: url(../img/play-button-kanan.png) !important;
     position: relative;
     width: 40px;
     height: 40px;
@@ -121,10 +121,10 @@
 
   .swiper-button-prev {
 
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    // -webkit-transform: scaleX(-1);
+    // transform: scaleX(-1);
   
-    background-image: url(https://www.iconsdb.com/icons/preview/indigo/arrow-34-xxl.png) !important;
+    background-image: url(../img/play-button-kiri.png) !important;
     position: relative;
     width: 40px;
     height: 40px;
