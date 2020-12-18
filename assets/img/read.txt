@@ -1,1 +1,0 @@
-<!--- image only example for training dev --->
