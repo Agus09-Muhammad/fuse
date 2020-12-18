@@ -108,8 +108,8 @@
     height: 40px;
     z-index: 10;
     cursor: pointer;
-    -moz-background-size:  24px 24px;
-    -webkit-background-size:  24px 24px;
+    -moz-background-size: 24px 24px;
+    -webkit-background-size: 24px 24px;
     background-size: 24px 24px !important;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,14 +123,14 @@
 
     // -webkit-transform: scaleX(-1);
     // transform: scaleX(-1);
-  
+
     background-image: url(../img/play-button-kiri.png) !important;
     position: relative;
     width: 40px;
     height: 40px;
     z-index: 10;
-    -moz-background-size:  24px 24px;
-    -webkit-background-size:  24px 24px;
+    -moz-background-size: 24px 24px;
+    -webkit-background-size: 24px 24px;
 
     background-size: 24px 24px !important;
     background-position: center;
@@ -147,4 +147,47 @@
   }
 
 
+}
+
+
+.swiper-detail-aboutus {
+
+    width: 100%;
+    height: 100%;
+    background: #000;
+
+
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+
+    .title {
+      font-size: 41px;
+      font-weight: 300;
+    }
+
+    .subtitle {
+      font-size: 21px;
+    }
+
+    .text {
+      font-size: 14px;
+      max-width: 400px;
+      line-height: 1.3;
+    }
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
 }
