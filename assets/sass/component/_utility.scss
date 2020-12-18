@@ -1,0 +1,26 @@
+
+
+
+//clamp-webkit
+
+.clamp-3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;    
+}
+.clamp-6{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;    
+}
+
+.pd-contain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pd-0 {
+    padding: 0px;
+}
